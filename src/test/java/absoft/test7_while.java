@@ -5,5 +5,16 @@ package absoft;
  */
 
 public class test7_while {
+    public static void main(String[] args) {
 
+        var i = 1;
+        while (i <= 10) {
+
+              if ((i == 2) || (i == 6) || (i == 10)){
+                  System.out.println(i++ + " - some cool text");
+              } else {
+                  System.out.println(i++);
+              }
+        }
+    }
 }
