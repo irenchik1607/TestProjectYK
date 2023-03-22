@@ -6,7 +6,7 @@ C помощью цикла записать в массив числа от 1 �
  */
 
 
-//vimport java.util.Arrays;
+//import java.util.Arrays;
 
 public class test9_array {
     public static void main(String[] args) {
