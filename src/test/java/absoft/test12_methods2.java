@@ -22,8 +22,7 @@ public class test12_methods2 {
             System.out.println("Sorry, name was not found");
         } else {
             System.out.println("Hello " + value);
-            String nameForSearchNumber = value;
-            System.out.println("Your seat is " + seatNumber(nameForSearchNumber));
+            System.out.println("Your seat is " + seatNumber(value));
         }
     }
 
