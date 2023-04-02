@@ -13,6 +13,10 @@ Note3: класс откуда будет раниться тест, долже�
 Сами методы должны лежать в отдельном классе и вызываться из него.
  */
 
-import java.util.Scanner;
+
 public class test13_overall {
+    public static void main(String[] args) {
+
+        Test13_Second.calculateTotal();
+    }
 }
