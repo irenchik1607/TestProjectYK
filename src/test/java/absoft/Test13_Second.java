@@ -1,6 +1,6 @@
 package absoft;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Test13_Second {
@@ -8,9 +8,6 @@ public class Test13_Second {
     public static void calculateTotal() {
 
 
-        String productName;
-        double price;
-        int qty;
 
         String[] productsArray = new String[5];
 
