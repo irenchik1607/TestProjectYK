@@ -16,14 +16,12 @@ public class test12_methods2 {
     public static void main(String[] args) {
         System.out.println("Please, write your name");
         String writeName = new Scanner(System.in).nextLine();
-
         String value = name(writeName);
 
         if (value.equals("no")) {
             System.out.println("Sorry, name was not found");
         } else {
             System.out.println("Hello " + value);
-
             String nameForSearchNumber = value;
             System.out.println("Your seat is " + seatNumber(nameForSearchNumber));
         }
